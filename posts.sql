@@ -14,9 +14,9 @@ CREATE TABLE `productos` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 
-ALTER TABLE `posts`
+ALTER TABLE `productos`
   ADD PRIMARY KEY (`id`);
 
-ALTER TABLE `posts`
+ALTER TABLE `productos`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
 COMMIT;
